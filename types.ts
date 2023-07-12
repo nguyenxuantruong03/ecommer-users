@@ -14,10 +14,12 @@ export interface Product{
     category: Category;
     name: string;
     price: string;
+    // quantity: string;
     isFeatured: boolean;
     size: Size;
     color: Color;
     images: Image[];
+    description: string;
 }
 
 export interface Image{
